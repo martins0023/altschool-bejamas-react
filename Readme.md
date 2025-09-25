@@ -51,22 +51,36 @@ Behavior specifics requested and implemented:
 
    ```
    project-root/
-   ├─ index.html
-   ├─ assets/
-   │  ├─ styles/
-   │  │  └─ styles.css
-   │  ├─ scripts/
-   │  │  └─ scripts.js
-   │  └─ images/
-   │     ├─ logo.png
-   │     ├─ hero-dog.png
-   │     ├─ sub-hero-1.png
-   │     └─ cart-image-1.png ...
+   ├─ node_modules/
+   ├─ public/
+   ├─ src/
+   │  ├─ assets/
+   │  ├─ components/
+   │  │  └─ Featured.jsx
+   │  │  └─ Header.jsx
+   │  │  └─ MobileFilterPanel.jsx
+   │  │  └─ Pagination.jsx
+   │  │  └─ ProductCard.jsx
+   │  │  └─ ProductGrid.jsx
+   │  │  └─ SidebarFilters.jsx
+   │  │  └─ StoreSection.jsx
+   │  └─ App.jsx
+   │  └─ index.css
+   │  └─ main.jsx
+   ├─ .eslintrc.cjs
+   ├─ middleware.js
+   ├─ package.js
+   ├─ package-lock.js
+   ├─ postcss.config.js
+   ├─ Readme.md
+   ├─ tailwind.config.js
+   ├─ vercel.json
+   ├─ vite.config.js
    ```
-3. Open `index.html` in a browser (double click or `Open With > Browser`).
+3. run `npm run dev` in a terminal 
 
    * No build step or server required for this static assignment.
-   * For a local server (optional): `npx http-server .` or `python -m http.server` in the project root, then visit `http://localhost:8080`.
+   * and then navigate to `http://localhost:5173`.
 
 ---
 
@@ -125,17 +139,22 @@ Behavior specifics requested and implemented:
 ## Project file map (short)
 
 ```
-index.html
-assets/
-  ├─ styles/
-  │   └─ styles.css
-  ├─ scripts/
-  │   └─ scripts.js
-  └─ images/
-      ├─ logo.png
-      ├─ hero-dog.png
-      ├─ sub-hero-1.png
-      └─ cart-image-1.png ...
+├─ node_modules/
+   ├─ public/
+   ├─ src/
+   │  ├─ assets/
+   │  ├─ components/
+   │  │  └─ Featured.jsx
+   │  │  └─ Header.jsx
+   │  │  └─ MobileFilterPanel.jsx
+   │  │  └─ Pagination.jsx
+   │  │  └─ ProductCard.jsx
+   │  │  └─ ProductGrid.jsx
+   │  │  └─ SidebarFilters.jsx
+   │  │  └─ StoreSection.jsx
+   │  └─ App.jsx
+   │  └─ index.css
+   │  └─ main.jsx ...
 ```
 
 ---
